@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         slotDuration: '00:30:00',
         slotLabelInterval: '00:30:00',
         timeFormat: 'H:mm',
-        defaultView: 'timeGridWeek',
+        defaultView: 'timeGridWeek,timeGridDay',
         aspectRatio: 3,
         header: {
             left: 'prev,next',
@@ -48,3 +48,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
